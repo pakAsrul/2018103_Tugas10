@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Booking Kamar Hotel</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="rp_500_000"><strike>Rp 500.000</strike></string>
+    <string-array name="hotels">
+        <item>Balava Hotel Malang</item>
+        <item>Ijen Suites Hotel</item>
+        <item>Solaris Hotel Malang</item>
+    </string-array>
+    <string-array name="star">
+        <item>5.0</item>
+        <item>5.0</item>
+        <item>4.9</item>
+    </string-array>
+    <string-array name="harga">
+        <item>Rp. 550.000</item>
+        <item>Rp. 650.000</item>
+        <item>Rp. 500.000</item>
+    </string-array>
+    <string name="todo">TODO</string>
+    <string name="overview">Overview</string>
+
+    <string name="swipe_left_for_register">Swipe Left forRegister</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tagLogin">Let\'s join us and \nLogin Your Account</string>
+    <string name="tagRegister">Let\'s Register Your Account And \nGo Back To Login</string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="register">Register</string>
+    <string name="your_name">Full Name</string>
+    <string name="username">Username</string>
+</resources>

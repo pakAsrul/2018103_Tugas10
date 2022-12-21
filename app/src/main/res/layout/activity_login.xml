@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/tv_title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/ic_baseline_home_work_24" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_subtitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/login"
+        android:textColor="@color/redsemi"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/signinusernameEditText"
+        android:layout_marginStart="85dp"
+        android:layout_marginBottom="50dp"
+        android:text="Login Sekarang dan Pesan Kamarmu"
+        android:textColor="@color/redsemi"
+        android:textSize="14dp" />
+    <EditText
+        android:id="@+id/signinusernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/username"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:layout_above="@id/signinpasswordEditText"
+        android:background="@drawable/et_custom"
+        android:textSize="15sp" />
+    <EditText
+        android:id="@+id/signinpasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        android:layout_centerInParent="true"
+        android:background="@drawable/et_custom"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Signinbuttonid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signinpasswordEditText"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_custom"
+        android:text="@string/login"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/SignUpHerebuttonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Signinbuttonid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/ic_arrow_right"
+        android:text="Belum Punya Akun ?" />
+
+    <TextView
+        android:id="@+id/swipeRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SignUpHerebuttonid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Daftar Sekarang"
+        android:textColor="@color/redsemi"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
